@@ -1,0 +1,6 @@
+.bestHotelsContainer {
+  display: flex;
+  flex: 1 1 1;
+  justify-content: space-between;
+  gap: 1rem;
+}

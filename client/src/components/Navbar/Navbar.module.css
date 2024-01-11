@@ -1,0 +1,23 @@
+.Navbar {
+  background-color: var(--blue);
+  width: 100%;
+}
+
+.Navbar ul {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .containerButtons {
+  gap: 1rem;
+}
+
+.Navbar .navBtn {
+  color: var(--blue);
+}
+
+.Navbar .logoBtn {
+  font-size: 1.5rem;
+  color: var(--white);
+}

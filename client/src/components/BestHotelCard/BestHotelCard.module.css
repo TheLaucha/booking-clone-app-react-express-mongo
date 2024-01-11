@@ -1,0 +1,35 @@
+.BestHotelCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--black);
+}
+
+.BestHotelCard .image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.BestHotelCard .title {
+}
+
+.BestHotelCard .location {
+  color: var(--grey);
+}
+
+.BestHotelCard .details {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.BestHotelCard .puntuation {
+  font-size: 0.9rem;
+}
+
+.BestHotelCard .puntuation .tagPuntuation {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  padding: 0.3rem;
+}

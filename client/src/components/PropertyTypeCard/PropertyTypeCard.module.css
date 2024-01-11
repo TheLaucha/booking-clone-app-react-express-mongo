@@ -1,0 +1,20 @@
+.PropertyTypeCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+
+.PropertyTypeCard .propertyImage {
+  border-radius: 0.5rem 0.5rem 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.propertyTitle {
+  text-transform: capitalize;
+  color: var(--black);
+}
+
+.propertyQuantity {
+  color: var(--grey);
+}

@@ -1,0 +1,51 @@
+.sectionTitle {
+  color: var(--black);
+}
+
+
+
+.contactEmailContainer {
+  background-color: var(--blue);
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+.contactEmail {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactEmail h3 {
+  font-size: 2rem;
+}
+
+.contactEmail p {
+  font-size: 1rem;
+}
+
+.contactEmail .emailContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.contactEmail .emailContainer input {
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.contactEmail .emailContainer .emailBtn {
+  cursor: pointer;
+  background-color: var(--lightBlue);
+  color: var(--white);
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+}
+
+

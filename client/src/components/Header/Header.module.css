@@ -1,0 +1,128 @@
+.Header {
+  background-color: var(--blue);
+  margin-bottom: 2rem;
+}
+
+.Header .headerList {
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.Header .headerList .headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.Header .headerList .headerListItem.active {
+  border: 1px solid #fff;
+  border-radius: 2rem;
+}
+
+/* HEADER RESUME */
+
+.Header .headerPlusContainer {
+  position: relative;
+}
+
+.Header .headerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.Header .headerInfo .headerBtn {
+  background-color: var(--lightBlue);
+  color: var(--white);
+}
+
+/* HEADER SEARCH BAR */
+
+.Header .headerSearch {
+  padding: 1rem;
+  background-color: var(--white);
+  border: 2px solid var(--yellow);
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+}
+
+.Header .headerSearchItem {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.Header .headerIcon {
+  color: var(--grey);
+}
+
+.Header .headerSearchInput {
+  border: none;
+  padding: 0.2rem;
+  background-color: var(--white);
+  outline: none;
+}
+
+.Header .headerSearchText {
+  color: var(--grey);
+}
+
+.Header .headerSearchBtn {
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+}
+
+.Header .headerSearchBtn:hover {
+  background-color: var(--blue);
+}
+
+.Header .options {
+  position: absolute;
+  background-color: var(--white);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Header .optionItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.Header .optionText {
+  font-size: 1.2rem;
+  color: var(--grey);
+}
+
+.Header .optionCounter {
+  font-size: 1.2rem;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.Header .optionBtn {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 0.2rem 0.5rem;
+}
+
+.Header .optionBtn:disabled {
+  cursor: not-allowed;
+}

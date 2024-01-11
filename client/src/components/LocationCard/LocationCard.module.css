@@ -1,0 +1,28 @@
+.LocationCard {
+  position: relative;
+  flex: 1;
+  border-radius: 0.5rem;
+}
+
+.locationImage {
+  height: 100%;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.locationTitle {
+  font-size: 1.8rem;
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+  text-shadow: 0.1em 0.1em 0 #3659685e;
+}
+
+.properties {
+  text-shadow: 0.1em 0.1em 0 #3659685e;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}

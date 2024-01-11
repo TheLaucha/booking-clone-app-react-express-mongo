@@ -1,0 +1,23 @@
+version: "3"
+services:
+  # react-app:
+  #   image: react-app
+  #   stdin_open: true
+  #   ports:
+  #     - "3000:3000"
+  api-server:
+    container_name: docker-node-mongo
+    restart: always
+    image: api-server
+    build: .
+    ports:
+      - "8800:8800"
+    depends_on:
+      - mongo
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27017:27017"

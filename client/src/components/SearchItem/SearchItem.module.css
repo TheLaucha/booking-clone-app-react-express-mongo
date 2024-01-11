@@ -1,0 +1,111 @@
+.SearchItem {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--grey);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  align-items: center;
+  color: var(--black);
+}
+
+.SearchItem img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+.SearchItem .searchItemInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.SearchItem .searchItemInfo .searchItemInfoLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.SearchItem .searchItemInfo .searchItemInfoRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.SearchItem .searchItemInfo .searchItemInfoRight .reviews {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.puntuation {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.3rem;
+}
+
+.searchItemInfoTitle {
+  color: var(--lightBlue);
+}
+
+.bgGreen {
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+
+.fontBold {
+  font-weight: 600;
+}
+
+.fontGreen {
+  color: var(--green);
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.fontGrey {
+  color: var(--grey);
+}
+
+.prices .searchItemBtn {
+  background-color: var(--lightBlue);
+  color: var(--white);
+  border: none;
+}
+
+.prices .searchItemBtn:hover {
+  background-color: var(--lightBlue);
+}
+
+@media screen and (max-width: 768px) {
+  .SearchItem {
+    grid-template-columns: 3fr 4fr;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .SearchItem {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .SearchItem img {
+    max-height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+}

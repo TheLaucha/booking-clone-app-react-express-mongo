@@ -1,0 +1,6 @@
+PUT http://localhost:8800/api/hotels/6529db2f9f160089b89609a0
+content-type: application/json
+
+{
+    "name": "Awesome Hotel Jane"
+}

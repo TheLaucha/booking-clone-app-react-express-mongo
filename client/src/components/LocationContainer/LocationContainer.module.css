@@ -1,0 +1,5 @@
+.locationCardContainer {
+  display: flex;
+  flex: 1 1 1;
+  gap: 1rem;
+}

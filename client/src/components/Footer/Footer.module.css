@@ -1,0 +1,14 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 3rem 0;
+}
+
+.Footer li {
+  margin: 0.5rem 0;
+}
+
+.Footer li a {
+  color: var(--blue);
+}

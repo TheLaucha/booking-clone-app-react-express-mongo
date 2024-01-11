@@ -1,0 +1,64 @@
+.HotelList .listContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.HotelList .listContainer .listSearch {
+  background-color: var(--yellow);
+  color: var(--black);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.HotelList .listContainer .listSearch .listItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.HotelList .listContainer .listSearch .listItem label {
+  font-weight: 500;
+}
+
+.HotelList .listContainer .listSearch .listItem input {
+  padding: 0.5rem;
+  border: none;
+  background-color: var(--white);
+}
+
+.HotelList .listContainer .listSearch .listItem .listOption {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HotelList .listContainer .listSearch .listItem .listOption label {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.HotelList .listContainer .listSearch .listItem .listOption input {
+  width: 30%;
+}
+
+.HotelList .listContainer .listSearch .listSearchBtn {
+  background-color: var(--lightBlue);
+  color: var(--white);
+  border: none;
+}
+
+.HotelList .listContainer .listSearch .listSearchBtn:hover {
+  background-color: var(--lightBlue);
+}
+
+.HotelList .listContainer .listResult {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
